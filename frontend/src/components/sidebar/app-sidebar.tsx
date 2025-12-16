@@ -15,7 +15,7 @@ import { User, Sparkles, Settings } from "lucide-react";
 import Link from "next/link";
 import SidebarMenuItems from "./side-bar-menu-items";
 // import MobileSidebarClose from "./mobile-sidebar-close";
-// import Credits from "./credits";
+import Credits from "./credites";
 // import Upgrade from "./upgrade";
 
 export default async function AppSidebar() {
@@ -55,8 +55,8 @@ export default async function AppSidebar() {
       <SidebarFooter className="border-t border-zinc-800/50 bg-black p-3">
         {/* Credits & Upgrade */}
         <div className="mb-3 flex w-full items-center justify-center gap-2 text-xs">
-          {/* <Credits />
-          <Upgrade /> */}
+          <Credits />
+          {/* <Upgrade /> */}
         </div>
 
         {/* User Button */}
