@@ -16,7 +16,7 @@ import Link from "next/link";
 import SidebarMenuItems from "./side-bar-menu-items";
 // import MobileSidebarClose from "./mobile-sidebar-close";
 import Credits from "./credites";
-// import Upgrade from "./upgrade";
+import Upgrade from "./upgrade";
 
 export default async function AppSidebar() {
   return (
@@ -56,7 +56,7 @@ export default async function AppSidebar() {
         {/* Credits & Upgrade */}
         <div className="mb-3 flex w-full items-center justify-center gap-2 text-xs">
           <Credits />
-          {/* <Upgrade /> */}
+          <Upgrade />
         </div>
 
         {/* User Button */}
